@@ -1,0 +1,232 @@
+A Program to keep a Phone Directory:
+
+ a Show all records
+ d Delete the current record
+ f Change the first name in the current record
+ l Change the last name in the current record
+ n Add a new record
+ p Change the phone number in the current record
+ q Quit
+ s Select a record from the record list to become the current record
+
+Enter a command from the list above (q to quit): n
+Add first name: Tejal
+Add last name: Wakchaure
+Enter phone number: 9021091791
+Current record is: Tejal Wakchaure 902-109-1791
+
+A Program to keep a Phone Directory:
+
+ a Show all records
+ d Delete the current record
+ f Change the first name in the current record
+ l Change the last name in the current record
+ n Add a new record
+ p Change the phone number in the current record
+ q Quit
+ s Select a record from the record list to become the current record
+
+Enter a command from the list above (q to quit): n
+Add first name: Isha
+Add last name: Shetye
+Enter phone number: 9873948590
+Current record is: Isha Shetye 987-394-8590
+
+A Program to keep a Phone Directory:
+
+ a Show all records
+ d Delete the current record
+ f Change the first name in the current record
+ l Change the last name in the current record
+ n Add a new record
+ p Change the phone number in the current record
+ q Quit
+ s Select a record from the record list to become the current record
+
+Enter a command from the list above (q to quit): a
+First Name Last Name Phone Number 
+------------------- ------------------- -------------------
+Isha                Shetye              987-394-8590        
+Tejal               Wakchaure           902-109-1791        
+
+A Program to keep a Phone Directory:
+
+ a Show all records
+ d Delete the current record
+ f Change the first name in the current record
+ l Change the last name in the current record
+ n Add a new record
+ p Change the phone number in the current record
+ q Quit
+ s Select a record from the record list to become the current record
+
+Enter a command from the list above (q to quit): s
+First Name Last Name Phone Number 
+------------------- ------------------- -------------------
+Isha                Shetye              987-394-8590        
+Tejal               Wakchaure           902-109-1791        
+Enter first name: Tejal
+Enter last name: Wakchaure
+Enter phone number: 9021091791
+Record successfully selected.
+Current record is: Tejal Wakchaure 902-109-1791
+
+A Program to keep a Phone Directory:
+
+ a Show all records
+ d Delete the current record
+ f Change the first name in the current record
+ l Change the last name in the current record
+ n Add a new record
+ p Change the phone number in the current record
+ q Quit
+ s Select a record from the record list to become the current record
+
+Enter a command from the list above (q to quit): a
+First Name Last Name Phone Number 
+------------------- ------------------- -------------------
+Isha                Shetye              987-394-8590        
+Tejal               Wakchaure           902-109-1791        
+
+A Program to keep a Phone Directory:
+
+ a Show all records
+ d Delete the current record
+ f Change the first name in the current record
+ l Change the last name in the current record
+ n Add a new record
+ p Change the phone number in the current record
+ q Quit
+ s Select a record from the record list to become the current record
+
+Enter a command from the list above (q to quit): d
+Record Removed
+First Name Last Name Phone Number 
+------------------- ------------------- -------------------
+Isha                Shetye              987-394-8590        
+
+A Program to keep a Phone Directory:
+
+ a Show all records
+ d Delete the current record
+ f Change the first name in the current record
+ l Change the last name in the current record
+ n Add a new record
+ p Change the phone number in the current record
+ q Quit
+ s Select a record from the record list to become the current record
+
+Enter a command from the list above (q to quit): a
+First Name Last Name Phone Number 
+------------------- ------------------- -------------------
+Isha                Shetye              987-394-8590        
+
+A Program to keep a Phone Directory:
+
+ a Show all records
+ d Delete the current record
+ f Change the first name in the current record
+ l Change the last name in the current record
+ n Add a new record
+ p Change the phone number in the current record
+ q Quit
+ s Select a record from the record list to become the current record
+
+Enter a command from the list above (q to quit): f
+No current record
+
+A Program to keep a Phone Directory:
+
+ a Show all records
+ d Delete the current record
+ f Change the first name in the current record
+ l Change the last name in the current record
+ n Add a new record
+ p Change the phone number in the current record
+ q Quit
+ s Select a record from the record list to become the current record
+
+Enter a command from the list above (q to quit): n
+Add first name: Tejal
+Add last name: Wakchaure
+Enter phone number: 9021091791
+Current record is: Tejal Wakchaure 902-109-1791
+
+A Program to keep a Phone Directory:
+
+ a Show all records
+ d Delete the current record
+ f Change the first name in the current record
+ l Change the last name in the current record
+ n Add a new record
+ p Change the phone number in the current record
+ q Quit
+ s Select a record from the record list to become the current record
+
+Enter a command from the list above (q to quit): f
+Enter first name: Sejal
+First name has been changed.
+Current record is: Sejal Wakchaure 902-109-1791
+
+A Program to keep a Phone Directory:
+
+ a Show all records
+ d Delete the current record
+ f Change the first name in the current record
+ l Change the last name in the current record
+ n Add a new record
+ p Change the phone number in the current record
+ q Quit
+ s Select a record from the record list to become the current record
+
+Enter a command from the list above (q to quit): l
+Enter last name: Kale
+Last name has been changed
+Current record is: Sejal Kale 902-109-1791
+
+A Program to keep a Phone Directory:
+
+ a Show all records
+ d Delete the current record
+ f Change the first name in the current record
+ l Change the last name in the current record
+ n Add a new record
+ p Change the phone number in the current record
+ q Quit
+ s Select a record from the record list to become the current record
+
+Enter a command from the list above (q to quit): p
+Enter phone number:
+9021091792
+The phone number has been successfully updated.
+Current record is: Sejal Kale 902-109-1792
+
+A Program to keep a Phone Directory:
+
+ a Show all records
+ d Delete the current record
+ f Change the first name in the current record
+ l Change the last name in the current record
+ n Add a new record
+ p Change the phone number in the current record
+ q Quit
+ s Select a record from the record list to become the current record
+
+Enter a command from the list above (q to quit): a
+First Name Last Name Phone Number 
+------------------- ------------------- -------------------
+Sejal               Kale                902-109-1792        
+Isha                Shetye              987-394-8590        
+
+A Program to keep a Phone Directory:
+
+ a Show all records
+ d Delete the current record
+ f Change the first name in the current record
+ l Change the last name in the current record
+ n Add a new record
+ p Change the phone number in the current record
+ q Quit
+ s Select a record from the record list to become the current record
+
+Enter a command from the list above (q to quit): q
