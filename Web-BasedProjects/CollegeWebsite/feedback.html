@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Amrutvahini Polytechnic</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="Amrutvahini Polytechnic,sangamner">
+ <meta name="author" content="AVPOLY">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js="></script>
+</head>
+<body class="body"  style="background-color:#1B2631">
+<header class="mainheader">
+	<img src="images/logo.png" width="120" height="100">
+	<content id="search">
+		<form>
+  <input type="text" name="search" placeholder="Search" onclick="window.location.href='search.html'">
+</form>
+	</content>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="course.html">Course</a></li>
+			<li><a href="login.html">Login</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="Feedback.html">Feedback</a></li>
+			
+		</ul> 
+	</nav>
+</header>
+
+<div class="container">
+	  
+	  <div class="main" style="color:white"> 
+		<h2 style="color:#CF5C3F">Feedback</h2><hr/>
+
+        
+		<form id="form_id" method="post" name="myform" >
+		  <strong>Email :</strong></br>
+		  <input type="email" name="Email" id="Email" placeholder="your Email id" /></br>
+           <br/>
+		   <strong>Roll-No :</strong></br>
+		  <input type="number" name="Roll No" id="number"/></br>
+		  <br/>
+
+		   <div class="row">    
+      <div class="col-25">    
+        <strong>Select Staff :</strong>
+        <select name="Staff">    
+          <option value="prof.XYZ">prof.XYZ</option>    
+          <option value="Prof.PQR">prof.PQR</option>    
+          <option value="prof.STR">prof.STR</option>     
+        </select>    
+      </div>    
+    </div>  
+    <br/>  
+        <strong>Enter Feedback Between: 1 to 10</strong><br/><br/>
+        <strong>Do you understand what has been taught by the staff??</strong><br/>
+       <input type="radio" name="choice" value="yes"> Yes
+    <input type="radio" name="choice" value="no"> No
+    <br/><br/>
+		  <input type="button" value="submit" id="submit" onclick="validate()"/>
+		</form>
+		
+	  </div>
+	 
+
+<script type="text/javascript">
+function validate(){
+
+		alert ("Feedback Submitted successfully");
+		
+	}
+</script>
+</body>
+</html>

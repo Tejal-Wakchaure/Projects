@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Amrutvahini Polytechnic</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="Amrutvahini Polytechnic,Sangamner">
+ <meta name="author" content="avpoly">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js="></script>
+
+</head>
+<body class="body" style="background-color:#1B2631">
+<header class="mainheader">
+	<img src="images/logo.png">
+	<content id="search">
+		<form>
+  <input type="text" name="search" placeholder="Search" onclick="window.location.href='search.html'">
+</form>
+	</content>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="course.html">Course</a></li>
+			<li><a href="login.html">Login</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="Feedback.html">Feedback</a></li>
+			
+		</ul> 
+	</nav>
+</header>
+<br>
+<h1 align="center">WELCOME TO AMRUTVAHINI POLYTECHNIC,SANGAMNER</h1>
+<div class="slideshow-container">
+
+<div class="iambrpslides fade">
+  <div class="numbertext">01 / 03</div>
+  <img src="./images/Amrutvahini_Polytechnic.jpg" style="width:100%">
+ </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">02 / 03</div>
+  <img src="./images/avpoly2.jpg">
+  </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">03 / 03</div>
+  <img src="./images/avpoly1.jpg">
+</div>
+
+</div>
+
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("iambrpslides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2500); // This is for Changing image every 2.5 seconds
+}
+</script>
+<br>
+		
+		<script type="text/javascript">
+  document.title="Home";
+</script>
+		
+				
+<script src="scripts/slider.js"></script>
+<div class="mainContent">
+	<div class="Content" >
+		<article class="topContent" >
+
+			<header style="color: white">
+			 <h3><a href="#" title="My First Post">AVPOLY </a>	</h3>  
+			</header><content>
+<p>Amrutvahini Polytechnic, To provided Diploma course it has been established in the year 1983 on no grant basis at Amrutnagar as the outcome of hard efforts made by Late Hon. Shri. BHAUSAHEB THORAT, the President of the "Amrutvahini Sheti & Shikshan Vikas Sanstha." The Polytechnic is affiliated to Maharashtra State Board of Technical Education, Mumbai - 51, approved by D.T.E (Mumbai) & A.I.C.T.E. (New Delhi). The institute has a culture of academic excellence. The results are excellent & students score higher percentage of marks.
+The Sanstha is now growing at a fast rate under the able guidance of Hon. Shri. BALASAHEB THORAT (Minister for Revenue, Govt. of Maharashtra, Mumbai) and Hon. Dr. SUDHIRJI TAMBE.(MLC, Graduate Constituency, Maharashtra) The infrastructure amenities & instructional facilities are increasing day by day. Their valuable and timely guidance in the development of institute has been source of inspiration to the staff and students.
+Amrutvahini Polytechnic Isunaided - Private Institute Located At Sangamner Inmaharashtra . The Address Of The Institute Is Amrutnagar, P.O. Sangamner S.K. Tal- Sangamner Dist- Ahmednagar ,Ahmednagar , Pincode422608 . It Operates Under The Parent Organization Amrutvahini Sheti & Shikshan Vikas Sanstha . The Institute Started Its First Course In 1994. Amrutvahini Polytechnic Is Open For Both Men And Women. Amrutvahini Polytechnic Is Open For All Sections Of Society. The Head Of The Insititute Is Principal Vivek Dhumal . Contact Details: Website: Www.Amrutpoly.Co.In Email: Amrutpoly(at)Rediffmail.Com Landline No: 2425 - 259014
+
+</p>
+			</content>
+			
+	</div>
+</div>
+
+<aside class="top-sidebar">
+	<article>
+		<h3 style="color: black">Quick links</h3>
+		<p style="color: black">Academic Calender 2020-21</br>Course-wise Lab Manuals</br>FY Admission 2020-21</p>
+	</article>
+</aside>
+
+<aside class="middle-sidebar">
+	<article>
+		<h3 style="color: black">Latest Announcements</h3>
+		<p style="color: black">Final Year Summer Time-table 2020-21</p>
+	</article>
+</aside>
+
+<footer class="mainFooter">
+	<p style="color: black">Copyright &copy <a href="">AVPOLY</a> </p>
+	
+</footer>
+
+</body>
+</html>

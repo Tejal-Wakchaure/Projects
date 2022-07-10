@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<title>Amrutvahini Polytechnic</title>
+	
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js"></script>
+<script src="javascript/validatename.js"></script>
+
+</head>
+<body class="body"  style="background-color:#1B2631">
+<header class="mainheader">
+	<img src="images/logo.png">
+	<content id="search">
+		<form>
+  <input type="text" name="search" placeholder="Search" onclick="window.location.href='search.html'">
+</form>
+	</content>
+<nav>
+    <ul>
+     <li><a href="index.html">Home</a></li>
+      <li><a href="course.html">Course</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="Feedback.html">Feedback</a></li>
+      
+    </ul> 
+  </nav>
+</header>
+
+<h3>Contact:</h3>
+<strong>Sheti and Shikshan vikas sansthan<br>
+Amrutvahini Polytechnic,</strong>
+Sangamner-422608
+<pre>
+Phone : 02425 259 015<br>
+Email :  amrutpoly@rediffmail.com<br>
+Official Website : http://www.amrutpoly.co.in
+</pre>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<br>
+<br>
+
+<strong>If you are student please enter your student number:</strong>
+<center>
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+</center>
+<hr>
+<footer class="mainFooter">
+  <p>Copyright &copy <a href="">avpoly</a> </p>
+  
+</footer>
+<script>
+function myFunction() {
+    var x, text;
+
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("numb").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 1 || x > 1000) {
+        text = "Input not valid";
+    } else {
+        text = "Input OK";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html> 
+<script type="text/javascript">
+  document.title="Contact";
+</script>
+</body>
+
+</html>
